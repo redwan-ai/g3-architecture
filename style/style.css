@@ -41,6 +41,7 @@
   .header-lower>p{
     margin: 30px 150px;
     word-wrap: normal;
+    color: rgba(66, 66, 65, 0.807);
   }
   .btn{
     margin-top: 20px;
@@ -83,22 +84,51 @@ grid-row-gap: 0px;
 .quick-list-read{
     margin-top: 80px;
     margin-left: 100px;
-    margin-bottom: -80px;
 }
 .quick-list-read>h1{
     font-size: x-large;
 }
 .quick-list-read>p{
     font-size: 20px;
+    color: rgba(66, 66, 65, 0.807);
 }
 .quick-list-read>h1>span{
     color: #FF900E;
     font-size: 48px;
 }
-
-
-
-
+/*Features-section*/
+.features-of-work{
+  margin-top: -920px;
+  margin-left: 160px;
+  margin-right: 120px;
+}
+.features{
+  
+  display: flex;
+  gap: 50px;
+}
+.features>div h1{
+  border-left: 4px solid #FF900E;
+  font-size: 40px;
+  padding-left: 10px;
+}
+.features>div p{
+  font-size: 20px;
+  color: rgba(66, 66, 65, 0.807);
+}
+.features>img{
+  position: relative;
+  margin-top: 40px;
+  height: 44%;
+  width: 50%;
+}
+#div1,#div2,#div3,#div4{
+  margin: 30px 0;
+  padding: 20px 20px;
+  border-radius: 8px;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
 
 
 
