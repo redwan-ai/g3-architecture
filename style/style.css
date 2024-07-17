@@ -194,5 +194,17 @@ background: rgb(255, 255, 255);
 .div4{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
+.features-of-work{
+  margin-top: 20px;
+  margin-left: 80px;
+  
+}
+.features{
+  flex-direction: column;
+  gap: 50px;
+}
+.architect{
+  height: 550px;
+  width: 430px;
+}
   }
