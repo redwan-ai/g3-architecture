@@ -64,7 +64,7 @@
     display: flex;
     margin: 50px 130px 0 160px;
     border-radius: 8px;
-    gap: 50px;
+    gap: 30px;
 }
 .image-grid{
     display: grid;
@@ -138,4 +138,31 @@ grid-row-gap: 0px;
 .banner-img{
     width: 100%;
 }
+
+.quick-list-feature{
+  flex-direction: column-reverse;
+  margin-left: -30px;
+  margin-top: -20px;
+}
+.image-grid{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ margin: 100px 0 0 100px;
+ gap: 30px;
+ 
+}
+.div1{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.div2{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.div3{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.div4{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
   }
